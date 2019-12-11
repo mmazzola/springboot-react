@@ -7,8 +7,6 @@ export default function Timer({ init }) {
 	const [minutes, setMinutes] = useState();
 	const [hours, setHours] = useState();
 	const [days, setDays] = useState();
-	const [months, setMonths] = useState();
-	const [years, setYears] = useState();
 
 	const [loaded, isLoaded] = useState(false);
 
