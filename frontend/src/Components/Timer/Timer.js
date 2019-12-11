@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Timer.css';
 
 export default function Timer({ init }) {
 
@@ -26,9 +27,9 @@ export default function Timer({ init }) {
 
 	return (
 		loaded &&
-		<div>
+		<div className="timer-container">
 			{days > 0 && <p> {days} days</p>}
-			<p>{hours} : {minutes.toString().padStart(2, '0')} : {seconds.toString().padStart(2, '0')}</p>
+			<p className="time-detail">{hours} : {minutes.toString().padStart(2, '0')} : {seconds.toString().padStart(2, '0')}</p>
 		</div>
 	);
 }

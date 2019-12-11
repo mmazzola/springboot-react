@@ -1,6 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Stopwatch} from './Components/Stopwatch';
+import { Stopwatch } from './Components/Stopwatch';
 
-ReactDOM.render(<Stopwatch />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
+
+function App() {
+
+	return (
+		<div className="main-container">
+			<h1> It's the Pucci Countdown!</h1>
+			<Stopwatch />
+		</div>
+	);
+
+}
