@@ -1,0 +1,32 @@
+@keyframes goAround {
+	
+	0% {
+		top:5%; 
+		left: 10%;	
+		opacity: 1;
+	}
+	
+	25% {
+		top:35%; 
+		left: 40%;	
+		opacity: 0.7;
+	}
+	
+	50% {
+		top:10%; 
+		left: 80%;	
+		opacity: 1;
+	}
+	
+	75% {
+		top:70%; 
+		left: 65%;
+		opacity: 0.7;	
+	}
+	
+	100% {
+		top:50%; 
+		left: 30%;	
+		opacity: 1;
+	}
+}

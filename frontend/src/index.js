@@ -9,6 +9,7 @@ function App() {
 
 	return (
 		<div className="main-container">
+			<img className="hearth" src="hearth.png" />
 			<h1> It's the Pucci Countdown!</h1>
 			<Stopwatch />
 		</div>
