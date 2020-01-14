@@ -8,7 +8,7 @@ function App() {
 
 	return (
 		<div className="main-container">
-			<h1> Sample App!</h1>
+			<h1>Life Goal Tracker</h1>
 		</div>
 	);
 
