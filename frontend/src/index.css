@@ -1,31 +1,5 @@
-@import './background-animation.css';
 
 html, body, #root
 {
 	height: 100%;
-}
-
-.main-container
-{
-	text-align : center;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	background: url('/background.jpg');
-
-}
-
-.main-container h1
-{
-	color: purple;
-	font-size: 48px;
-}
-
-.hearth
-{
-	width: 40px;
-	height: 40px;
-	animation: goAround 50s infinite;
-	position: absolute;
-	z-index: 0;
 }

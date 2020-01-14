@@ -1,10 +1,10 @@
-package com.mmazzola.countdown;
+package com.mmazzola.lifetracking;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CountdownApplicationTests {
+class LifeTrackingApplicationTests {
 
 	@Test
 	void contextLoads() {

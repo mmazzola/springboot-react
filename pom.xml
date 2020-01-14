@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mmazzola</groupId>
-	<artifactId>countdown</artifactId>
+	<artifactId>lifetracking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>countdown</name>
-	<description>Pucci Countdown</description>
+	<name>lifetracking</name>
+	<description>LifeTracking App</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
